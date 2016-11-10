@@ -1,0 +1,2 @@
+Select distinct BillingCountry
+from Invoice

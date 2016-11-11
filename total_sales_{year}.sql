@@ -1,6 +1,7 @@
+--Demonstrates syntax for two distinct select statements in the same query
 Select
 (Select sum(Total)
-from Invoice 
+from Invoice
 where InvoiceDate like "2011%")
 as "Invoice Total 2011",
 
